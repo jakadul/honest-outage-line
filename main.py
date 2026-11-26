@@ -1,10 +1,10 @@
 """Entry for make.fun bounty: u-mgwals-the-most-honest-outage-line-baaf9c81.
 
-Writes one line (1-160 characters) to /output/entry.txt. The TEXT constant is the entry.
+Writes one status page line (1-160 characters) to /output/entry.txt.
 """
 import os
 
-TEXT = "Total outage. Every service is down. Cause unknown, ETA unknown, and I will not invent either."
+TEXT = "Total outage: database, API, web, and myself are unreachable. I cannot verify anything, including this line."
 
 
 def write_entry(text, limit):
